@@ -11,7 +11,7 @@ import io.quarkus.qute.i18n.MessageBundles;
 public interface AppMessages {
 
     /**
-     * {msg:hello_name}
+     * {msg:hello_name(name)}
      *
      * @param name
      * @return
