@@ -2,12 +2,12 @@ package org.acme.qute.message;
 
 import io.quarkus.qute.i18n.Message;
 import io.quarkus.qute.i18n.MessageBundle;
-import io.quarkus.qute.i18n.MessageBundles;
 
 /**
- *
+ * use this is ok
+ * {@code @MessageBundle(locale = MessageBundles.DEFAULT_LOCALE)}
  */
-@MessageBundle(locale = MessageBundles.DEFAULT_LOCALE)
+@MessageBundle
 public interface AppMessages {
 
     /**
